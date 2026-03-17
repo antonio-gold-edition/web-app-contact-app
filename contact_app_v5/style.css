@@ -1,0 +1,107 @@
+/* PAGE */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background:#f4f4f4;
+}
+
+/* CONTACT CARD */
+
+.card{
+    border-radius:8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+    transition:0.25s ease;
+}
+
+/* DARK MODE */
+
+.dark-mode body{
+    background-color:#121212 !important;
+    color:white !important;
+}
+/* cards */
+
+.dark-mode .card{
+    background:#1e1e1e;
+    color:white;
+    border:none;
+    box-shadow:0 0 10px rgba(255,255,255,0.05);
+}
+
+/* form inputs */
+
+.dark-mode .form-control{
+    background:#2b2b2b;
+    color:white;
+    border:1px solid #444;
+}
+
+.dark-mode .form-control::placeholder{
+    color:#bbb;
+}
+
+/* search input */
+
+.dark-mode input{
+    background:#2b2b2b;
+    color:white;
+}
+
+/* headings */
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode p{
+    color:white;
+}
+
+/* links */
+
+.dark-mode a{
+    color:#9ecbff;
+}
+
+/* toggle button */
+
+#darkToggle{
+    border-radius:20px;
+    padding:6px 14px;
+}
+.dark-mode{
+    background:#121212;
+}
+
+.dark-mode body{
+    background:#121212;
+}
+
+/* Make Edit/Delete buttons readable in dark mode */
+
+.dark-mode .btn-warning{
+    color:#000 !important;   /* black text on yellow */
+    font-weight:600;
+}
+
+.dark-mode .btn-danger{
+    color:#fff !important;   /* white text on red */
+    font-weight:600;
+}
+
+/* optional: improve button visibility slightly */
+
+.dark-mode .btn-warning:hover{
+    filter:brightness(1.1);
+}
+
+.dark-mode .btn-danger:hover{
+    filter:brightness(1.1);
+}
+
+h2{
+    font-family:'Bebas Neue', sans-serif;
+    letter-spacing:2px;
+}
