@@ -9,6 +9,9 @@ finiliazion of the product
 
 https://chatgpt.com/share/69b802be-be04-8013-a5ff-851c1e66ea01 (v4)
 had to change database from xml to sql
+(v5)
+db.php, sql password changed to student from "".
+
 
 enjoy
 
